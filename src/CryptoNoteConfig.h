@@ -142,8 +142,8 @@ namespace parameters {
 #define BYTECOIN_NETWORK                                "748dbce1-922a-48c3-7f32-4ea3fc400d16"
 
 const std::initializer_list<const char*> SEED_NODES {
-   "208.68.38.73:21697",
-  "159.203.189.225:21697",
+   "157.230.180.239:21697",
+  "134.209.113.231:21697",
 
 };
 
