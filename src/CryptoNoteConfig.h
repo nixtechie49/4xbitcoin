@@ -104,7 +104,7 @@ namespace parameters {
 } // parameters
 
 #define CRYPTONOTE_NAME                                 "4xBit"
-#define CRYPTONOTE_GENESIS_TX                           "011e01ff0001c0c3930702915d2f4c8fcd6610e8be209fb9349b81e21410d45c9c96bba8916898997999dd21011901c7818524b78183c04671e84fc12bdbbba6e80ef69350658a5d53efc22c92"
+#define CRYPTONOTE_GENESIS_TX                           "011e01ff0001c0c39307029b3e73c6ba60afdc0204a0c20a8267509ee4cf1328dc0561256651cbce0ff6352101a99c3f7d2328c52f029011ca4c24d228df0805d10c9d987c89b3dad1a3d96479"
 
 #define TRANSACTION_VERSION_1                           1
 #define TRANSACTION_VERSION_2                           2
@@ -123,8 +123,8 @@ namespace parameters {
 #define BLOCKS_SYNCHRONIZING_DEFAULT_COUNT              4096
 #define COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT           1000
 
-#define P2P_DEFAULT_PORT                                11793
-#define RPC_DEFAULT_PORT                                41194
+#define P2P_DEFAULT_PORT                                21697
+#define RPC_DEFAULT_PORT                                21698
 
 #define P2P_LOCAL_WHITE_PEERLIST_LIMIT                  1000
 #define P2P_LOCAL_GRAY_PEERLIST_LIMIT                   5000
@@ -142,11 +142,8 @@ namespace parameters {
 #define BYTECOIN_NETWORK                                "748dbce1-922a-48c3-7f32-4ea3fc400d16"
 
 const std::initializer_list<const char*> SEED_NODES {
-   "18.202.173.41:11793",
-  "52.31.87.216:11793",
-  "35.211.31.198:11793",
-  "206.189.246.20:11793"
-  "206.189.246.0:11793"
+   "208.68.38.73:21697",
+  "159.203.189.225:21697",
 
 };
 
